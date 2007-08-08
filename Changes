@@ -1,0 +1,14 @@
+Revision history for WWW-Vox
+
+1.0  Tue Aug 07 2007
+     First public version! Hello!
+
+0.9  Sat Jul 07 2007
+     Moved authentication out into a module.
+
+0.2  Fri Jun 02 2006
+     Updated to new client -> searchresult -> asset model.
+
+0.1  Fri Feb 17 2006
+     Initial version.
+

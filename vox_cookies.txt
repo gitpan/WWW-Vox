@@ -1,0 +1,4 @@
+#LWP-Cookies-1.0
+Set-Cookie3: CometBiscuit=E%3Dmc2; path="/"; domain=.vox.com; path_spec; expires="2007-08-27 00:12:25Z"; version=0
+Set-Cookie3: AID=UmFuZG9tSVYiQYugwtPUeEPZjhdeSdG4pOJ2ZEDCguIog3z8cBbW8%2Fhbbz63A1retczDkVWTHMwB4C%2BKBhBWYsP%2BGiWZHzrG; path="/"; domain=www.vox.com; path_spec; expires="2007-08-27 00:12:25Z"; version=0
+Set-Cookie3: UAID=UmFuZG9tSVaRRJ4m2u3fGWl9sGI%2F5I%2FhA4VQdojzOPcB5Y%2FGao4zd1wozxpgN%2BK8IyKNu26yzX8WC3h74Z82ow%3D%3D; path="/"; domain=www.vox.com; path_spec; expires="2017-07-25 00:12:25Z"; version=0
