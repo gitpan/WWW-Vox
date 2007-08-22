@@ -15,4 +15,3 @@ MANIFEST			This list of files
 META.yml
 t/00.load.t
 t/07-auth.t
-vox_cookies.txt

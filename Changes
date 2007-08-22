@@ -1,5 +1,8 @@
 Revision history for WWW-Vox
 
+1.1  Web Aug 22 2007
+     Noted Test::MockObject requirement for automated testers.
+
 1.0  Tue Aug 07 2007
      First public version! Hello!
 

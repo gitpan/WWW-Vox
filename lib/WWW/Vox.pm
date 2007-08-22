@@ -1,10 +1,10 @@
-# $Id: Vox.pm 1418 2007-08-08 17:21:41Z mpaschal $
+# $Id: Vox.pm 1424 2007-08-22 18:38:51Z mpaschal $
 
 package WWW::Vox;
 use strict;
 use warnings;
 
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 use Carp;
 use Data::Dumper;
