@@ -1,4 +1,4 @@
-# $Id: Error.pm 1387 2007-08-02 00:32:03Z mpaschal $
+# $Id: Error.pm 1432 2008-11-26 17:16:02Z mpaschal $
 
 package WWW::Vox::Error;
 use warnings;
@@ -44,6 +44,8 @@ associated with different errors can be saved in an Error's hash members.
 Creates a new WWW::Vox::Error with the given message and extra parameters
 (optional). Extra parameters are accessible through regular hash access methods
 (for example, C<< $error->{key} >>).
+
+=head2 $error->as_string()
 
 =head2 "$error"
 

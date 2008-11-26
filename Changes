@@ -1,6 +1,10 @@
 Revision history for WWW-Vox
 
-1.1  Web Aug 22 2007
+1.2  26 November 2008
+     Removed unused module requirement.
+     Documented a few undocumented methods.
+
+1.1  Wed Aug 22 2007
      Noted Test::MockObject requirement for automated testers.
 
 1.0  Tue Aug 07 2007

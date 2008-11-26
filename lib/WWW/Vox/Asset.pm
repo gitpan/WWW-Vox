@@ -1,4 +1,4 @@
-# $Id: Asset.pm 1418 2007-08-08 17:21:41Z mpaschal $
+# $Id: Asset.pm 1432 2008-11-26 17:16:02Z mpaschal $
 
 package WWW::Vox::Asset;
 use warnings;
@@ -91,6 +91,11 @@ C<search()> and C<list_asset()> methods.
 =head2 WWW::Vox::Asset->new_from($client, \%data)
 
 Creates a new instance with the given WWW::Vox client and a set of asset data.
+
+=head2 $asset->asset_id()
+
+Returns the ID of this asset. This is equivalent to accessing the C<id> member
+of the asset's data.
 
 =head2 $asset->update()
 

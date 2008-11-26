@@ -1,4 +1,4 @@
-# $Id: Cookies.pm 1382 2007-08-02 00:05:10Z mpaschal $
+# $Id: Cookies.pm 1432 2008-11-26 17:16:02Z mpaschal $
 
 package WWW::Vox::Auth::Cookies;
 use strict;
@@ -60,7 +60,7 @@ HTTP::Cookies module.
 
 =head1 INTERFACE 
 
-=head2 WWW::Vox->new(%params)
+=head2 WWW::Vox::Auth::Cookies->new(%params)
 
 Creates a new WWW::Vox::Auth::Cookies authenticator.
 
@@ -78,6 +78,11 @@ This is convenient when the cookies are saved in an HTTP::Cookies cookie jar
 file, as you can (almost) specify solely the cookie jar's filename.
 
 =back
+
+=head2 $cookies->prepare_http_request($request)
+
+Configures the given HTTP::Request to authenticate using C<$cookies>'
+configured cookie jar.
 
 =head1 DIAGNOSTICS
 

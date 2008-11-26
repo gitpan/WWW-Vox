@@ -22,7 +22,7 @@ sub make_mock_ua {
 my $mock_ua = make_mock_ua();
 
 
-use_ok('WWW::Vox', 'loaded vox client module');
+use_ok('WWW::Vox');
 
 {
     my $vox = WWW::Vox->new;

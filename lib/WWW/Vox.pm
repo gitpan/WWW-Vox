@@ -1,10 +1,10 @@
-# $Id: Vox.pm 1424 2007-08-22 18:38:51Z mpaschal $
+# $Id: Vox.pm 1432 2008-11-26 17:16:02Z mpaschal $
 
 package WWW::Vox;
 use strict;
 use warnings;
 
-our $VERSION = '1.1';
+our $VERSION = '1.2';
 
 use Carp;
 use Data::Dumper;
@@ -12,7 +12,6 @@ use HTTP::Request;
 use LWP::UserAgent;
 use URI;
 
-use Digest::HMAC_SHA1 qw( hmac_sha1_hex );
 use JSON::Any;
 
 use constant HOST => 'http://www.vox.com';
@@ -263,9 +262,16 @@ L<WWW::Vox::Auth>.
 
 The initial portion of the URI for the Vox instance your client will use. By
 default, this is set to I<http://www.vox.com>, but you can override it by
-setting I<host> appropriately. Note that you must include the I<http://> at the
-front, and that you don't need a I</> at the end. This option is provided for
+setting I<host> appropriately. Note that you must include the C<http://> at the
+front, and that you don't need a C</> at the end. This option is provided for
 testing.
+
+=item * debug
+
+Whether or how to output diagnostic information while processing. If C<debug>
+is a coderef, it will be invoked with the human-readable debugging message as
+a single argument. If C<debug> is some other true value, the message will be
+C<warn>ed.
 
 =back
 
@@ -378,6 +384,11 @@ Asset IDs are unique across all users and asset types, so you only need the ID.
 =head2 $vox->create_collection($name)
 
 Creates a new collection, returning the WWW::Vox::Collection object for it.
+
+=head2 $vox->debug($message)
+
+Sends the human-readable debugging message C<$message> to the configured
+target of debug messages.
 
 =head1 DIAGNOSTICS
 
