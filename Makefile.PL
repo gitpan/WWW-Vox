@@ -10,6 +10,9 @@ WriteMakefile(
     PREREQ_PM => {
         'JSON::Any'         => 1,
         'Image::Info'       => 1,
+        'URI'               => 0,
+        'HTTP::Request'     => 0,
+        'LWP::UserAgent'    => 0,
         'Test::MockObject'  => '0.15',
     },
 );

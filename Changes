@@ -1,5 +1,8 @@
 Revision history for WWW-Vox
 
+1.3  1 December 2008
+     Include additional required modules in packaging requirements.
+
 1.2  26 November 2008
      Removed unused module requirement.
      Documented a few undocumented methods.
